@@ -8,31 +8,41 @@ Aplikasi ini terintegrasi dengan backend [Golang Perpustakaan RESTful API](https
 
 ## 📸 Screenshots & Preview
 
-Berikut adalah cuplikan antarmuka (UI) aplikasi dalam **Dark Mode (Tema Gelap)** yang menampilkan estetika minimalis modern beresolusi tinggi dengan sentuhan aksen pastel solid yang premium:
+Berikut adalah cuplikan antarmuka (UI) lengkap aplikasi dalam **Dark Mode (Tema Gelap)** yang menampilkan estetika minimalis modern beresolusi tinggi dengan sentuhan aksen warna pastel solid yang premium:
 
-### 1. Halaman Login (Sign In Staf)
-Halaman masuk dengan tipografi tebal (`Perpustakaan\nDigital.`), ikon brand minimalis, serta tombol aksi dengan kontras tinggi yang bersih.
-<p align="center">
-  <img src="screenshots/login_dark.png" width="300" alt="Login Screen Dark Mode" />
-</p>
+### 🔑 Autentikasi & Dashboard Utama
 
-### 2. Dashboard Utama (Semua Kategori & Ringkasan)
-Menampilkan salam penyambutan staf, toggle tema matahari/bulan, menu cepat peminjaman aktif, statistik koleksi buku (mint green pastel), denda (gold/sand pastel), serta list peminjaman yang terlambat (*overdue*).
-<p align="center">
-  <img src="screenshots/dashboard_dark.png" width="300" alt="Dashboard Screen Dark Mode" />
-</p>
+| 1. Halaman Login (Sign In Staf) | 2. Dashboard Utama (Ringkasan & Aksi) |
+| :---: | :---: |
+| Halaman masuk staf dengan tipografi tebal (`Perpustakaan\nDigital.`), ikon brand minimalis, serta tombol aksi dengan kontras tinggi yang bersih. | Pusat informasi yang menampilkan sapaan staf, toggle tema, data counter peminjaman aktif, indikator pastel koleksi buku & total denda, serta sirkulasi terlambat. |
+| <img src="screenshots/login_dark.png" width="300" alt="Login Screen" /> | <img src="screenshots/dashboard_dark.png" width="300" alt="Dashboard Screen" /> |
 
-### 3. Filter Sirkulasi (Modul Katalog)
-Menampilkan transisi kategori dashboard saat menyaring menu katalog buku dengan kartu deskripsi solid berwarna pastel hijau mint.
-<p align="center">
-  <img src="screenshots/dashboard_katalog.png" width="300" alt="Dashboard Catalog Filter" />
-</p>
+---
 
-### 4. Halaman Katalog Buku
-Daftar koleksi buku lengkap yang disusun menggunakan kartu solid datar (`CustomCard`) dengan informasi status ketersediaan stok buku, fitur pencarian di header, dan tombol tambah buku (+).
-<p align="center">
-  <img src="screenshots/katalog_buku.png" width="300" alt="Book Catalog List" />
-</p>
+### 📖 Modul Katalog Buku
+
+| 3. Akses Cepat Modul Katalog | 4. Daftar Katalog Buku |
+| :---: | :---: |
+| Panel menu pintas sirkulasi kategori dashboard untuk membuka katalog buku dengan warna latar belakang hijau mint pastel solid. | Daftar koleksi buku lengkap yang dikelola menggunakan kartu solid datar (`CustomCard`) dengan filter pencarian dan tombol tambah buku (+). |
+| <img src="screenshots/dashboard_katalog.png" width="300" alt="Quick Catalog" /> | <img src="screenshots/katalog_buku.png" width="300" alt="Book Catalog" /> |
+
+---
+
+### 🔄 Modul Sirkulasi Peminjaman
+
+| 5. Akses Cepat Modul Sirkulasi | 6. Daftar Peminjaman Aktif | 7. Riwayat Sirkulasi & Denda |
+| :---: | :---: | :---: |
+| Panel menu pintas sirkulasi kategori dashboard untuk modul peminjaman buku berwarna ungu lavender pastel solid. | Daftar peminjaman buku aktif mahasiswa yang sedang dipinjam dengan aksi cepat tombol kembalikan buku. | Riwayat transaksi buku yang telah dikembalikan, lengkap dengan badge status denda keterlambatan jika ada. |
+| <img src="screenshots/dashboard_sirkulasi.png" width="220" alt="Quick Circulation" /> | <img src="screenshots/sirkulasi_aktif.png" width="220" alt="Active Loans" /> | <img src="screenshots/sirkulasi_riwayat.png" width="220" alt="Loan History" /> |
+
+---
+
+### 💰 Modul Keuangan & Denda
+
+| 8. Laporan Denda Belum Lunas | 9. Laporan Denda Lunas |
+| :---: | :---: |
+| Daftar pencatatan denda keterlambatan mahasiswa yang belum dibayar, lengkap dengan tombol konfirmasi pembayaran. | Halaman riwayat denda yang telah lunas (bersih dari tunggakan denda). |
+| <img src="screenshots/denda_belum_lunas.png" width="300" alt="Unpaid Fines" /> | <img src="screenshots/denda_lunas.png" width="300" alt="Paid Fines" /> |
 
 ---
 
