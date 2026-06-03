@@ -8,14 +8,31 @@ Aplikasi ini terintegrasi dengan backend [Golang Perpustakaan RESTful API](https
 
 ## 📸 Screenshots & Preview
 
-Anda dapat menempatkan screenshot aplikasi Anda di bawah ini. Disarankan untuk menaruh file gambar di folder `screenshots/` di dalam project ini, lalu menautkannya secara relatif di `README.md`.
+Berikut adalah cuplikan antarmuka (UI) aplikasi dalam **Dark Mode (Tema Gelap)** yang menampilkan estetika minimalis modern beresolusi tinggi dengan sentuhan aksen pastel solid yang premium:
 
-| Light Mode (Tema Terang) | Dark Mode (Tema Gelap) |
-| :---: | :---: |
-| ![Dashboard Light](screenshots/dashboard_light.png) | ![Dashboard Dark](screenshots/dashboard_dark.png) |
-| ![Login Light](screenshots/login_light.png) | ![Login Dark](screenshots/login_dark.png) |
+### 1. Halaman Login (Sign In Staf)
+Halaman masuk dengan tipografi tebal (`Perpustakaan\nDigital.`), ikon brand minimalis, serta tombol aksi dengan kontras tinggi yang bersih.
+<p align="center">
+  <img src="screenshots/login_dark.png" width="300" alt="Login Screen Dark Mode" />
+</p>
 
-> 💡 *Catatan: Gantilah gambar di atas dengan screenshot asli yang Anda ambil dari HP/Emulator Anda setelah menyimpannya di folder `screenshots/`.*
+### 2. Dashboard Utama (Semua Kategori & Ringkasan)
+Menampilkan salam penyambutan staf, toggle tema matahari/bulan, menu cepat peminjaman aktif, statistik koleksi buku (mint green pastel), denda (gold/sand pastel), serta list peminjaman yang terlambat (*overdue*).
+<p align="center">
+  <img src="screenshots/dashboard_dark.png" width="300" alt="Dashboard Screen Dark Mode" />
+</p>
+
+### 3. Filter Sirkulasi (Modul Katalog)
+Menampilkan transisi kategori dashboard saat menyaring menu katalog buku dengan kartu deskripsi solid berwarna pastel hijau mint.
+<p align="center">
+  <img src="screenshots/dashboard_katalog.png" width="300" alt="Dashboard Catalog Filter" />
+</p>
+
+### 4. Halaman Katalog Buku
+Daftar koleksi buku lengkap yang disusun menggunakan kartu solid datar (`CustomCard`) dengan informasi status ketersediaan stok buku, fitur pencarian di header, dan tombol tambah buku (+).
+<p align="center">
+  <img src="screenshots/katalog_buku.png" width="300" alt="Book Catalog List" />
+</p>
 
 ---
 
