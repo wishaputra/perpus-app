@@ -201,9 +201,13 @@ class _FormPeminjamanScreenState extends State<FormPeminjamanScreen> {
                         const SizedBox(height: 8),
                         DropdownButtonFormField<String>(
                           value: _selectedBookId,
+                          isExpanded: true,
                           style: TextStyle(color: textPrimary),
                           dropdownColor: AppColors.getSurface(context),
-                          hint: Text('Pilih buku dari daftar', style: TextStyle(color: AppColors.getTextSecondary(context).withOpacity(0.5))),
+                          hint: Text(
+                            'Pilih buku dari daftar',
+                            style: TextStyle(color: AppColors.getTextSecondary(context).withOpacity(0.5)),
+                          ),
                           decoration: InputDecoration(
                             prefixIcon: Icon(Icons.book_rounded, color: AppColors.getTextSecondary(context)),
                             contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
@@ -211,7 +215,10 @@ class _FormPeminjamanScreenState extends State<FormPeminjamanScreen> {
                           items: availableBooks.map((book) {
                             return DropdownMenuItem<String>(
                               value: book.id,
-                              child: Text('${book.judul} (Stok: ${book.stok})'),
+                              child: Text(
+                                '${book.judul} (Stok: ${book.stok})',
+                                overflow: TextOverflow.ellipsis,
+                              ),
                             );
                           }).toList(),
                           onChanged: (val) {

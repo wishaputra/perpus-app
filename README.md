@@ -30,16 +30,16 @@ Berikut adalah cuplikan antarmuka (UI) lengkap aplikasi dalam **Dark Mode (Tema 
 
 ### 🔄 Modul Sirkulasi Peminjaman
 
-| 5. Akses Cepat Modul Sirkulasi | 6. Daftar Peminjaman Aktif | 7. Riwayat Sirkulasi & Denda |
-| :---: | :---: | :---: |
-| Panel menu pintas sirkulasi kategori dashboard untuk modul peminjaman buku berwarna ungu lavender pastel solid. | Daftar peminjaman buku aktif mahasiswa yang sedang dipinjam dengan aksi cepat tombol kembalikan buku. | Riwayat transaksi buku yang telah dikembalikan, lengkap dengan badge status denda keterlambatan jika ada. |
-| <img src="screenshots/dashboard_sirkulasi.png" width="220" alt="Quick Circulation" /> | <img src="screenshots/sirkulasi_aktif.png" width="220" alt="Active Loans" /> | <img src="screenshots/sirkulasi_riwayat.png" width="220" alt="Loan History" /> |
+| 5. Akses Cepat Modul Sirkulasi | 6. Daftar Peminjaman Aktif | 7. Riwayat Sirkulasi & Denda | 8. Formulir Pinjam Baru |
+| :---: | :---: | :---: | :---: |
+| Panel menu pintas sirkulasi kategori dashboard untuk modul peminjaman buku berwarna ungu lavender pastel solid. | Daftar peminjaman buku aktif mahasiswa yang sedang dipinjam dengan aksi cepat tombol kembalikan buku. | Riwayat transaksi buku yang telah dikembalikan, lengkap dengan badge status denda keterlambatan jika ada. | Formulir pencatatan peminjaman baru mahasiswa dengan validasi nama, NIM, pilihan buku (aman dari *overflow*), dan pemilihan batas kembali. |
+| <img src="screenshots/dashboard_sirkulasi.png" width="180" alt="Quick Circulation" /> | <img src="screenshots/sirkulasi_aktif.png" width="180" alt="Active Loans" /> | <img src="screenshots/sirkulasi_riwayat.png" width="180" alt="Loan History" /> | <img src="screenshots/pencatatan_peminjaman.png" width="180" alt="New Loan Form" /> |
 
 ---
 
 ### 💰 Modul Keuangan & Denda
 
-| 8. Laporan Denda Belum Lunas | 9. Laporan Denda Lunas |
+| 9. Laporan Denda Belum Lunas | 10. Laporan Denda Lunas |
 | :---: | :---: |
 | Daftar pencatatan denda keterlambatan mahasiswa yang belum dibayar, lengkap dengan tombol konfirmasi pembayaran. | Halaman riwayat denda yang telah lunas (bersih dari tunggakan denda). |
 | <img src="screenshots/denda_belum_lunas.png" width="300" alt="Unpaid Fines" /> | <img src="screenshots/denda_lunas.png" width="300" alt="Paid Fines" /> |
